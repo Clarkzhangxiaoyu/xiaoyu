@@ -1,0 +1,20 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, a,figure,figcaption{ margin:0; padding:0; box-sizing: border-box;}
+        fieldset, img { border:none; }
+        img{display: block;}
+        a{
+        	text-decoration: none;
+        }
+        address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+        ul, ol { list-style:none; }
+        .s-sub ul li{
+        	float: left;
+        	font-size: 14px;
+        	color: #8C8C99;
+        	margin: 5px;
+        	
+        	
+        }
+        .s-sub ul li a{
+        	
+        	color: #8C8C99;
+        }
