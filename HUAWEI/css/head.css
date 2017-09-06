@@ -6,15 +6,314 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
         }
         address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
         ul, ol { list-style:none; }
-        .s-sub ul li{
+        html,body{
+        	background-color: #F5F5F5;
+        }
+        /*头部样式*/
+        .header{
+        	width: 100%;
+        	overflow: hidden;
+        }
+	    .header_l{
+	        float: left;
+	        width: 500px;
+	        margin-left: 115px;
+	        overflow: hidden;
+	    }
+	    .header_l ul{
+	        width: 500px;
+	        overflow: hidden;
+	    }
+	    .header_l ul li{
+	        float: left;
+	        font-size: 12px;
+	        margin: 3px;	
+	    }
+	    .header_l ul li:last-child a{
+	        display: block;
+	        width: 60px;
+	        background: url(../img/更多箭头.png) right center no-repeat;
+	    }
+	    .header_l ul li a{	
+	       	color: #8C8C99;
+	    }
+	    .header_r{
+	        float: right;
+	        width: 300px;
+	        overflow: hidden;
+	        margin-right: 44px;
+	    }
+	    .header_r ul li{
+	        float:left;
+	        font-size: 12px;
+	        height: 22px;
+	        text-align: center;
+	    }
+	    .header_r ul li a{	
+	        color: #8C8C99;
+	       	line-height: 22px;	
+	    }
+	    .header_r ul li:last-child a{
+	        display: block;
+	        width: 80px;
+	        background: url(../img/购物车.png) left center no-repeat;
+	    }
+	    /*头部结束*/
+	  	/*导航栏开始*/
+        .naver{
+        	width: 1200px;
+        	margin: 0 auto;
+        	height: 50px;
+        	margin-top: 20px;
+        	position: relative;
+        }
+        .naver .nav_logo{
         	float: left;
-        	font-size: 14px;
-        	color: #8C8C99;
-        	margin: 5px;
-        	
+        	margin-right: 10px;
+        }
+        .naver ul{
+        	width: 550px;
+        	overflow: hidden;	
+        }
+        .naver ul li {
+        	float: left;
+        	margin: 10px;
+        }
+        .naver ul li a{
+        	color: #000;
+        }
+        .naver .search-text{
+        	width: 310px;
+        	height: 25px;
+        	border-bottom: 1px solid #8C8C99;
+        	position: absolute;
+        	right: 20px;
+        	top: 15px;
+        }
+        .naver .nav_search{
+        	background: url(../img/icon-common.png) ;
+        	background-position:0 -28px;
+        	float: right;
+        	position: absolute;
+        	right: 0;
+        	top: 23px;
+        	width: 20px;
+        	height: 18px;
+        	border-bottom: 1px solid #8C8C99;
+        }
+        /*导航栏结束*/
+       	/*轮播图开始*/
+       	.banner{
+       		position: relative;
+       		height:450px;
+       	}
+      	#banner-imgs img{
+      		width: 1423px;
+      		height: 450px;
+      	}
+      	#banner-imgs li{
+      		display: none;
+      		position:absolute;
+        	top:0;
+        	left:0;
+      	}
+      	.banner ol{
+            position: absolute;
+            left: 636px;
+            bottom: 28px;
+            width: 166px; 
+        }
+        .banner ol li{
+            float: left;
+            width: 12px;
+            height: 12px;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid white;
+            cursor: default;
+            margin: 0 3px;
+
+        }
+        .banner ol li.current{
+            background-color: white;
+        }
+        #banner-left{
+        	width: 240px;
+        	height: 450px;
+        	position: absolute;
+        	left: 111px;
+        	background-color: rgba(0,0,0,.3);
+        }
+        #banner-left li{
+        	width: 225px;
+        	height:61px;
+        	margin: 0 15px;
+        	font-size: 15px;
+        }
+        #banner-left li h4{
+        	margin-top: 14px;
+        }
+        #banner-left li h4 a{
+        	color: white;
+        }
+        #banner-left li p{
+        	margin-top: 8px;
+        	font-size: 13px;
+        	background: url(../img/sprites3.png) no-repeat;
+        	background-position: 205px -29px;
         	
         }
-        .s-sub ul li a{
-        	
-        	color: #8C8C99;
+        #banner-left li p a{
+        	color: #868C74;
+        	margin-right: 10px;
         }
+        #banner-left li p a:hover{
+        	color: white;
+        }
+        /*轮播图结束*/
+       	/*四小图导航开始*/
+	    .small-banner{
+	      	width:1200px;
+	      	height: 160px;
+	      	margin: 10px auto;
+	    }
+	    .small-banner ul li{
+	      	float: left;
+	      	margin-right: 12px;
+	    }
+	    .small-banner ul li:last-child{
+	    	margin-right: 0;
+	    }
+	    .small-banner ul li:hover{
+	      	box-shadow: 0 0 10px #999;
+	    }
+	    /*四图小导航结束*/
+	   	/*热门单品开始*/
+	   	.hot-sail-single{
+	   		width: 1200px;
+	   		height: 626px;
+	   		margin: 30px auto;
+	   	}
+	   	.hot-sail-single h3{
+	   		margin-bottom: 13px;
+	   	}
+	   	.hot-sail-single-l{
+	   		float: left;
+	   		margin-right: 10px;
+	   	}
+	   	.hot-sail-single-r{
+	   		width: 958px;
+	   		height: 590px;
+	   		float: left;
+	   		position: relative;
+	   	}
+	   	.hot-sail-single-r li{
+	   		position: absolute;
+	   		height: 290px;
+	   		width: 230px;
+	   		text-align: center;
+	   		background-color: white;
+	   	}
+	   	.hot-sail-single-r li:nth-child(1){
+	   		left: 0px;
+	   		top:0
+	   	}
+	   	.hot-sail-single-r li:nth-child(2){
+	   		left: 242px;
+	   	}
+	   	.hot-sail-single-r li:nth-child(3){
+	   		left: 484px;
+	   	}
+	   	.hot-sail-single-r li:nth-child(4){
+	   		left: 726px;
+	   	}
+	   	.hot-sail-single-r li:nth-child(5){
+	   		bottom:0
+	   	}
+	   	.hot-sail-single-r li:nth-child(6){
+	   		bottom:0;
+	   		left: 242px;
+	   	}
+	   	.hot-sail-single-r li:nth-child(7){
+	   		bottom:0;
+	   		left: 484px;
+	   	}
+	   	.hot-sail-single-r li:nth-child(8){
+	   		bottom:0;
+	   		left: 726px;
+	   	}
+	   	.hot-sail-single-r li a{
+	   		display: block;
+	   		height: 290px;
+	   		width: 232px;
+	   	}
+	   	.hot-sail-single-r li a .p1{
+	   		font-size: 14px;
+	   		margin-top: 35px;
+	   		text-align: center;
+	   		color: #3A3A3A;
+	   	}
+	   	.hot-sail-single-r li a .p2{
+	   		font-size: 12px;
+	   		margin-top: 4px;
+	   		text-align: center;
+	   		color: #A4A4A4;
+	   	}
+	   	.hot-sail-single-r li a .p3{
+	   		font-size: 12px;
+	   		margin-top: 9px;
+	   		text-align: center;
+	   		color: #CC0E11;
+	   	}
+	   	.hot-sail-single-r li img{
+	   		width: 142px;
+	   		height: 142px;
+	   		margin: 35px auto;
+	   	}
+	   	/*热门单品结束*/
+	   	/*小轮播图开始*/
+	   	.small-lunbo{
+	   		width: 1200px;
+	   		height: 120px;
+	   		margin:30px auto;
+	   		position: relative;
+	   	}
+	   	.small-lunbo ul li{
+      		display: none;
+      		position:absolute;
+        	top:0;
+        	left:0;
+      	}
+      	.small-lunbo ol{
+            position: absolute;
+            right: 115px;
+            bottom: 10px;
+            width: 90px; 
+           	height: 10px;
+        }
+        .small-lunbo ol li{
+            float: left;
+            width: 10px;
+            height: 10px;
+            text-align: center;
+            border-radius: 50%;
+           	background-color: rgba(255,255,255,.2);
+            cursor: default;
+            margin: 0 2px;
+
+        }
+        .small-lunbo ol li.current1{
+            background-color: #E8C7C9;
+        }
+        /*小轮播图结束*/
+     	/*手机开始，开始有楼梯效果*/
+     	.phone{
+     		width: 1200px;
+     		height: 750px;
+     		margin: 30px auto;
+     	}
+        
+      	
+        
+        
+        	
