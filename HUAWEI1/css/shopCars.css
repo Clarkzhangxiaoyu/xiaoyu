@@ -1,0 +1,146 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, a,figure,figcaption{ margin:0; padding:0; box-sizing: border-box;}
+        fieldset, img { border:none; }
+        img{display: block;}
+        a{
+        	text-decoration: none;
+        }
+        address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+        ul, ol { list-style:none; }
+        html,body{
+        	background-color: #F5F5F5;
+        }
+         /*头部样式*/
+        .header{
+        	width: 100%;
+        	overflow: hidden;
+        	background-color: white;
+        }
+	    .header_l{
+	        float: left;
+	        width: 500px;
+	        margin-left: 115px;
+	        overflow: hidden;
+	    }
+	    .header_l ul{
+	        width: 500px;
+	        overflow: hidden;
+	    }
+	    .header_l ul li{
+	        float: left;
+	        font-size: 12px;
+	        margin: 3px;	
+	    }
+	    .header_l ul li:last-child a{
+	        display: block;
+	        width: 60px;
+	        background: url(../img/更多箭头.png) right center no-repeat;
+	    }
+	    .header_l ul li a{	
+	       	color: #8C8C99;
+	    }
+	    .header_r{
+	        float: right;
+	        width: 300px;
+	        overflow: hidden;
+	        margin-right: 44px;
+	    }
+	    .header_r ul li{
+	        float:left;
+	        font-size: 12px;
+	        height: 22px;
+	        text-align: center;
+	    }
+	    .header_r ul li a{	
+	        color: #8C8C99;
+	       	line-height: 22px;	
+	    }
+	    .header_r ul li:last-child a{
+	        display: block;
+	        width: 80px;
+	        background: url(../img/购物车.png) left center no-repeat;
+	    }
+	    /*头部结束*/
+	   	/*导航栏开始*/
+        .naver{
+        	width: 1200px;
+        	margin: 0 auto;
+        	height: 50px;
+        	margin-top: 20px;
+        	position: relative;
+        }
+        .naver .nav_logo{
+        	float: left;
+        	margin-right: 10px;
+        }
+        .naver ul{
+        	width: 550px;
+        	overflow: hidden;	
+        }
+        .naver ul li {
+        	float: left;
+        	margin: 10px;
+        }
+        .naver ul li a{
+        	color: #000;
+        }
+        .naver ul li a:hover{
+        	color: #CA141D;
+        	border-bottom: 2px solid #CA141D;
+        }
+        .naver .search-text{
+        	width: 310px;
+        	height: 25px;
+        	border-bottom: 1px solid #8C8C99;
+        	position: absolute;
+        	right: 20px;
+        	top: 15px;
+        }
+        .naver .nav_search{
+        	background: url(../img/icon-common.png) ;
+        	background-position:0 -28px;
+        	float: right;
+        	position: absolute;
+        	right: 0;
+        	top: 23px;
+        	width: 20px;
+        	height: 18px;
+        	border-bottom: 1px solid #8C8C99;
+        }
+        /*导航栏结束*/
+       	/*购物车菜单开始*/
+       	.shop-list{
+       		width: 1200px;
+			margin: 0 auto;   
+			margin-top: 20px;  
+				
+       	}
+       	.shop-list-protitle{
+       		width: 1200px;
+       		height: 40px;
+       		background: white;
+       		padding-left: 40px;
+       		box-sizing: border-box;
+       		color: #999;
+       		font-size: 12px;
+       	}
+       	.choose-all{
+       		width: 150px;
+       		height: 40px;
+       		line-height: 40px;
+       		float: left;
+       	}
+       	.choose-all input{
+       		margin-right: 13px;
+       	}
+       	.shop-list-protitle ul{
+       		width: 970px;
+       		height: 40px;
+       		float: left;
+       	}
+       	.shop-list-protitle ul li{
+       		float: left;
+       		width: 100px;
+       		height: 40px;
+       		margin-left: 30px;
+       		line-height: 40px;
+       	}

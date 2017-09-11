@@ -1,0 +1,90 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, a,figure,figcaption{ margin:0; padding:0; box-sizing: border-box;}
+        fieldset, img { border:none; }
+        img{display: block;}
+        a{
+        	text-decoration: none;
+        }
+        address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+        ul, ol { list-style:none; }
+html,body{
+	background: #F8F8F8;
+}
+/*整体样式*/
+.login-main{
+	width: 1002px;
+	height: 1000px;
+	margin: 0 auto;
+	
+}
+/*整体样式结束*/
+/*头部样式开始*/
+.login-main-head{
+	height: 100px;
+}
+.login-main-head img{
+	float: left;
+}
+.login-main-head span{
+	float: left;
+	margin-top: 10px;
+	font-size: 21px;
+	color: #999;
+}
+/*头部样式结束*/
+/*中间开始*/
+.login-login{
+	overflow: hidden;
+}
+.login-login-l{
+	float: left;
+	width: 640px;
+	height: 588px;
+	background: no-repeat;
+}
+.login-login-r{
+	width: 358px;
+	float: right;
+}
+.login-login-r h1{
+	color: #EA5E00;
+	margin-bottom: 20px;
+}
+.login-login-r p{
+	margin-bottom: 14px;
+}
+.login-login-r p input{
+	width: 280px;
+	height: 41px;
+}
+.login-remember{
+	font-size: 12px;
+	width: 246px;
+	height: 19px;
+	line-height: 19px;
+}
+.login-remember input{
+	float: left;
+}
+.login-remember .remember-uname{
+	float: left;
+}
+.login-remember .forget-pwd{
+	float: right;
+}
+.log-title-border{
+	width: 280px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e0e0e0;
+}
+/*中间结束*/
+/*登录按钮*/
+.login-button{
+	margin-top: 20px;
+}
+.login-button input{
+	color: white;
+	width:280px;
+	height: 44px;
+	background: #B40707;
+	border: none;
+}
