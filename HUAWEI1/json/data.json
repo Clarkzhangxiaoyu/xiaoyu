@@ -1,20 +1,20 @@
 [
 	{	
 		"id":"shop1",
-		"pname":"荣耀V9 全网通标配版 4GB+64GB",
-		"price":"¥ 2599.00",
+		"pname":"荣耀V9全网通标配版4GB+64GB",
+		"price":"2599",
 		"src":"p-hot-single1.jpg"
 	},
 	{
 		"id":"shop2",
-		"pname":"华为畅享7 Plus 4GB+64GB 全网通高配版",
-		"price":"¥ 1699.00",
+		"pname":"华为畅享7Plus4GB+64GB全网通高配版",
+		"price":"1699",
 		"src":"p-hot-single2.jpg"
 	},
 	{
 		"id":"shop3",
-		"pname":"荣耀8青春版 全网通标配版",
-		"price":"¥ 1099.00",
+		"pname":"荣耀8青春版全网通标配版",
+		"price":"1099",
 		"src":"p-hot-single3.jpg"
 	}
 	

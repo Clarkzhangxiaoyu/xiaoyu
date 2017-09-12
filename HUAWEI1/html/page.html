@@ -48,19 +48,18 @@
 		<div class="center">
 			<div class="xiangqing">
 				<div class="xiangqing-l">
-					<!--<img src="../img/p-hot-single1.jpg"/>-->
+					<!--<img src="../img/${ res[i].src }" alt="" />-->
 					<div class="mask">
 						
 					</div>
 				</div>
 				<div class="xiangqing-r">
-					<!--<p>荣耀8青春版 全网通标配版</p>
-					<span>￥2099.00</span>-->
-					<!--<input type="button" name="" id="" value="加入购物车" />-->
+					<!--<p>${res[i].pname }</p>
+					<span>${ res[i].price }</span>-->
+					<input type="button" name="" id="button" value="加入购物车" />
+					<!--<span data-id=${res[i].id}  data-name=${res[i].pname} data-src=${res[i].src} data-price=${res[i].price}   style="display:none"></span>-->
 				</div>
-				<!--<div class="gallery" style="background-image: url(../img/p-hot-single1.jpg);background-size: 1200px 1200px;width: 400px;height: 400px;position: absolute;">
-					
-				</div>-->
+				<!--<div class="gallery" style="background-image: url(../img/${ res[i].src });background-size: 1097px 1097px;"></div>-->
 			</div>
 		</div>
 		<!--footer开始-->
@@ -173,6 +172,7 @@
 		<!--bottom结束-->
 	</body>
 </html>
+
 <script type="text/javascript" src="../jquery/jquery-1.11.1.min.js">
 	
 </script>
@@ -182,3 +182,4 @@
 <script type="text/javascript" src="../js/page.js">
 	
 </script>
+

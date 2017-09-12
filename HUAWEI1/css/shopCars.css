@@ -108,6 +108,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
         }
         /*导航栏结束*/
        	/*购物车菜单开始*/
+       	/*购物车首行*/
        	.shop-list{
        		width: 1200px;
 			margin: 0 auto;   
@@ -144,3 +145,272 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
        		margin-left: 30px;
        		line-height: 40px;
        	}
+       	/*购物车首行结束*/
+       	/*购物车内容开始*/
+       	.shop-list-prolist{
+       		width: 1200px;
+       		
+       		margin-top: 10px;
+       		background: white;
+       		padding-left: 40px;
+       		padding-top: 20px;
+       		box-sizing: border-box;
+       		color: #999;
+       		font-size: 12px;
+       		
+       	}
+       	.choose-single{
+       		margin-top: 43px;
+       		float: left;
+       		
+       	}
+       	.shop-list-main{
+       		width: 1130px;
+       		height: 100px;
+       		margin-bottom: 10px;
+       		
+       	}
+		.shop-list-main a{
+			float: left;
+			width: 100px;
+			height: 100px;
+			margin-right: 20px;
+		}
+		.shop-list-main a img{
+			width: 100px;
+			height: 100px;
+		}
+		.shop-list-main ul{
+			float: left;
+			width: 970px;
+			height: 46px;
+		}
+		.shop-list-main ul li{
+			float: left;
+			width: 100px;
+			margin-left: 25px;
+			color: black;
+			font-size: 14px;
+		}
+		.shop-count{
+			width: 66px;
+			height: 46px;
+			margin: 0 17px;
+			border: 1px solid #E0E0E0;
+		}
+		.shop-count input{
+			width: 44px;
+			height: 44px;
+			float: left;
+			border: none;
+			text-align: center;
+		}
+		.shop-count p{
+			width: 21px;
+			height: 43px;
+			float: left;
+		}
+		.shop-count a{
+			width: 21px;
+			height: 23px;
+			text-align: center;
+			border: 1px solid #E0E0E0;
+			border-right: none;
+		}
+		/*购物车内容结束*/
+		/*购物车结算开始*/
+		.shop-money{
+			width: 1200px;
+			height: 60px;
+			margin-top: 10px;
+       		background: white;
+       		padding-left: 40px;
+       		box-sizing: border-box;
+       		color:black;
+       		font-size: 12px;
+       		overflow: hidden;
+		}
+		.shop-finalchoose{
+			width: 54px;
+			height: 60px;
+			line-height: 60px;
+			float: left;
+		}
+		.shop-finalchoose input{
+			margin-right: 8px;
+		}
+		.shop-money a{
+			float: left;
+			width: 24px;
+			height: 60px;
+			margin-left: 20px;
+			line-height: 60px;
+			color: black;
+		}
+		#do-money{
+			width: 180px;
+			height: 60px;
+			color: white;
+			border: none;
+			background: rgb(202,21,30);
+			font-size: 19px;
+			float: right;
+		}
+		.final-money{
+			width: 201px;
+			height: 60px;
+			float: right;
+			line-height: 60px;
+			font-size: 14px;
+		}
+		#final-money{
+			color: rgb(201,21,30);
+			font-size: 18px;
+			font-weight: bold;
+		}
+		/*购物车菜单结束*/
+		/*footer开始*/
+	   	.footer{
+	   		width: 1423px;
+	   		height: 360px;
+	   		background: #F0F0F0;
+	   		margin: 0 auto;
+	   	}
+	   	.footer-shouhou{
+	   		width: 1200px;
+	   		height: 140px;
+	   		border-bottom: 1px solid #E8E8E8;
+	   		margin: 0 auto;
+	   	}
+	   	.footer-shouhou li{
+	   		float: left;
+	   		height: 140px;
+	   		line-height: 140px;
+	   		margin-right: 80px;
+	   	}
+	   	.footer-shouhou li a{
+	   		color:black;
+	   		font-size: 17px;
+	   	}
+	   	.footer-shouhou li span{
+	   		float: left;
+	   		background: url(../img/icon-common.png);
+	   		width: 46px;
+	   		height: 46px;
+	   		margin: 49px 20px 0 0;
+	   	}
+	   	.footer-shouhou li:nth-child(1) span{
+	   		background-position: 0 -151px;
+	   	}
+	   	.footer-shouhou li:nth-child(2) span{
+	   		background-position: -94px -151px;
+	   	}
+	   	.footer-shouhou li:nth-child(3) span{
+	   		background-position: -141px -151px;
+	   	}
+	   	.footer-shouhou li:nth-child(4) span{
+	   		background-position: -47px -151px;
+	   	}
+	   	.footer-youqing{
+	   		width: 1200px;
+	   		height: 220px;
+	   		margin: 0 auto;
+	   	}
+	   	.footer-youqing-l{
+	   		width: 944px;
+	   		height: 160px;
+	   		float: left;
+	   		border-right: 1px solid #EBEBEB;
+	   	}
+	   	.footer-youqing-l li{
+	   		height: 160px;
+	   		width: 157px;
+	   		float: left;
+	   		margin-top: 31px;
+	   		background: url(../img/footer-line.png) no-repeat;
+	   	}
+	   	.footer-youqing-l li dl{
+	   		margin: 17px 0 0 0;
+	   	}
+	   	.footer-youqing-l li dl dt{
+	   		color: black;
+	   		font-size: 13px;
+	   		margin-bottom: 20px;
+	   	}
+	   	.footer-youqing-l li dl dd a{
+	   		color: #666666;
+	   		font-size: 12px;
+	   	}
+	   	.footer-youqing-l li dl dd a:hover{
+	   		color: #CA151C;
+	   	}
+	   	.footer-youqing-r{
+	   		width: 256px;
+	   		height: 160px;
+	   		float: left;
+	   		margin-top: 31px;
+	   		
+	   	}
+	   	.footer-youqing-r div{
+	   		height: 160px;
+	   		background: url(../img/footer-line.png) no-repeat;
+	   		margin-left: 40px;
+	   		padding-top: 20px;
+	   	}
+	   	.footer-youqing-r div p{
+	   		color: #666666;
+	   		font-size: 12px;
+	   		margin-top: 17px;
+	   		margin-bottom: 17px;
+	   	}
+	   	/*footer结束*/
+		/*bottom开始*/
+	   	.bottom{
+	   		width: 1423px;
+	   		height:120px;
+	   		background: #E6E6E6;
+	   		margin: 0 auto;
+	   	}
+	   	.bottom-main{
+	   		width: 1200px;
+	   		height: 120px;
+	   		margin: 0 auto;
+	   		overflow: hidden;
+	   		position: relative;
+	   	}
+	   	.bottom-main .bottom-text{
+	   		position: absolute;
+	   		left: 117px;
+	   		top: 31px;
+	   	}
+	   	.bottom-main .bottom-logo{
+	   		position: absolute;
+	   		top: 50px;
+	   		left: 0;
+	   	}
+	   	.bottom-text p{
+	   		color: #A4A4AA;
+	   		font-size: 10px;
+	   		margin-bottom: 5px;
+	   	}
+	   	.bottom ul{
+	   		position: absolute;
+	   		right: 0;
+	   		top: 40px;
+	   		width:366px;
+	   		height:24px;
+	   		
+	   	}
+	   	.bottom ul li{
+	   		float: left;
+	   		margin-right: 3px;
+	   	}
+        .bottom ul li img{
+	   		width: 69px;
+	   		height: 23px;
+	   	}
+	   	/*bottom结束*/
+		
+		
+		
+		
