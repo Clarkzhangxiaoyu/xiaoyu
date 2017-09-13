@@ -20,6 +20,16 @@ $("#banner-ol li").mouseout(function(){
 		timer = setInterval(autoPlay,5000);
 })
 //轮播图js结束
+
+//banner选项卡
+$("#banner-left li").mouseenter(function(){
+	var index=$(this).index()+1
+	$(".banner-list-li").css("display","block")
+	$(".banner-list-li img").attr("src","../img/banner-list-li"+index+".png")
+})
+$("#banner-left li").mouseleave(function(){
+	$(".banner-list-li").css("display","none")
+})
 //热门单品开始
 $(".hot-sail-single-l").mouseenter(function(){
 	$(this).animate({"margin-top":"-2px"}).css("box-shadow","0 0 10px #999")
@@ -191,7 +201,7 @@ $(window).scroll(function(){
 		$(".Loutinav").hide(500)
 	}
 	for( var i = 0 ; i < $(".Louti").length ; i++ ){
-		console.log($(".Louti").length)
+		
 		if( Math.abs( $(".Louti").eq(i).offset().top - sTop ) < $(".Louti").eq(i).height()/2){//$(".Louti").eq(i).height()/2 ){
 			$(".Loutinav li").eq(i).find("span").css("color","#CA151D")
 			$(".Loutinav li").eq(i).css("border-bottom","1px solid #CA151D")

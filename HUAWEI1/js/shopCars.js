@@ -12,7 +12,7 @@ $(function(){
 						</a>
 						<ul>
 							<li style="width: 450px;margin: 0;">${shopinfo.name}</li>
-							<li class="sigle-price">${shopinfo.price}</li>
+							<li class="sigle-price">¥${shopinfo.price}.00</li>
 							<li>
 								<div class="shop-count">
 									<input type="text" value="${shopinfo.count}" class="all-count"/>
@@ -46,7 +46,7 @@ $(function(){
 		for(var i in arr){
 			arr[i].count++
 			$(this).parent().parent().parent().parent().find(".all-count").val(arr[i].count);
-			$(this).parent().parent().parent().parent().find(".allprice").html( (arr[i].count*arr[i].price)  );	
+			$(this).parent().parent().parent().parent().find(".allprice").html( (arr[i].count*arr[i].price));	
 		}
 	})
 	$(".shop-list-prolist").on("click",".countsubtract",function(){
@@ -56,7 +56,7 @@ $(function(){
 				arr[i].count=1
 			}
 			$(this).parent().parent().parent().parent().find(".all-count").val(arr[i].count);
-			$(this).parent().parent().parent().parent().find(".allprice").html( (arr[i].count*arr[i].price)  );
+			$(this).parent().parent().parent().parent().find(".allprice").html( (arr[i].count*arr[i].price) );
 		}
 	})
 

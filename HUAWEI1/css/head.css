@@ -14,6 +14,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
         	width: 100%;
         	overflow: hidden;
         	background-color: white;
+        	
         }
 	    .header_l{
 	        float: left;
@@ -28,7 +29,8 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
 	    .header_l ul li{
 	        float: left;
 	        font-size: 12px;
-	        margin: 3px;	
+	        margin: 3px;
+	        position: relative;	
 	    }
 	    .header_l ul li:last-child a{
 	        display: block;
@@ -49,6 +51,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
 	        font-size: 12px;
 	        height: 22px;
 	        text-align: center;
+	        
 	    }
 	    .header_r ul li a{	
 	        color: #8C8C99;
@@ -59,6 +62,7 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
 	        width: 80px;
 	        background: url(../img/购物车.png) left center no-repeat;
 	    }
+	   
 	    /*头部结束*/
 	  	/*导航栏开始*/
         .naver{
@@ -150,13 +154,19 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
         	height: 450px;
         	position: absolute;
         	left: 111px;
-        	background-color: rgba(0,0,0,.3);
+        	
         }
         #banner-left li{
         	width: 225px;
-        	height:61px;
+        	height:75px;
+        	padding-left: 10px;
         	margin: 0 15px;
         	font-size: 15px;
+        	background-color: rgba(0,0,0,.3);
+        	overflow: hidden;
+        }
+        #banner-left li:hover{
+        	background-color: rgba(0,0,0,.6);
         }
         #banner-left li h4{
         	margin-top: 14px;
@@ -177,6 +187,12 @@ html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, l
         }
         #banner-left li p a:hover{
         	color: white;
+        }
+        .banner-list-li{
+        	position: absolute;
+        	left: 351px;
+        	top: 0;
+        	display: none;
         }
         /*轮播图结束*/
        	/*四小图导航开始*/

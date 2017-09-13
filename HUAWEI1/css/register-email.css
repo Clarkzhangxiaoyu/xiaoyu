@@ -1,0 +1,301 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, a,figure,figcaption{ margin:0; padding:0; box-sizing: border-box;}
+        fieldset, img { border:none; }
+        img{display: block;}
+        a{
+        	text-decoration: none;
+        }
+        address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+        ul, ol { list-style:none; }
+html,body{
+	background: #F1F1F1;
+}
+/*头部开始*/
+.head{
+	width: 100%;
+	height: 67px;
+	background: #333333;
+	color: white;
+	font-size: 23px;
+	line-height: 67px;
+}
+.head img{
+	float: left;
+	margin-left: 216px;
+	margin-top: 7px;
+}
+/*头部结束*/
+/*注册表单开始*/
+.main{
+	width: 100%;
+	
+	margin-top: 28px;
+}
+.main-body{
+	width: 988px;
+	
+	margin: 0 auto;
+	
+}
+.main-body-head{
+	width: 988px;
+	height: 33px;
+	
+}
+.main-body-head a.head-a{
+	float: left;
+	width: 139px;
+	height: 33px;
+	background: url(../img/register-main-head.png);
+	padding: 7px 0 0 40px;
+	line-height: 16px;
+    color: #fff;
+    font-size: 12px;
+}
+a.head-a:hover{
+	text-decoration: underline;
+}
+.main-body-head a:nth-child(1){
+	background-position: -150px 0;
+}
+.main-body-head a:nth-child(2){
+	background-position: -150px -99px;
+	margin-left: 4px;
+}
+.main-body-head-r{
+	float: right;
+	width: 113px;
+	height: 12px;
+	font-size: 12px;
+	margin-top: 9px;
+}
+.main-body-head-r a{
+	color: #D70506;
+	text-decoration: underline;
+}
+.main-body-main{
+	width: 988px;
+	padding: 52px 97px 38px 97px;
+	background: white;
+	box-sizing: border-box;
+}
+.reg-title{
+	font-size: 28px;
+    color: #000;
+    font-family: "Microsoft Yahei" ! important;
+}
+.reg-title-p{
+	color: #999;
+    line-height: 16px;
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.reg-title-border{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e0e0e0;
+}
+/*国家开始*/
+.select-country{
+	margin-top: 27px;
+}
+.select-country-title{
+	
+	font-size: 14px;
+    font-weight: bold;
+}
+.select-country-title .country{
+	float: right;
+	font-size: 12px;
+	font-weight: normal;
+}
+/*国家结束*/
+/*手机号开始*/
+.phone-number{
+	margin-top: 27px;
+}
+.phone-input{
+	margin-top: 32px;
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+	position: relative;
+}
+.phone-input input{
+	width: 176px;
+	height: 34px;
+	margin-left: 65px;
+}
+#check-phone{
+	position: absolute;
+	width: 100px;
+	height: 20px;
+	background: #F8F9D6;
+	border: 1px solid #999;
+	border-radius: 5%;
+	left: 115px;
+	top: 30px;
+	display: none;
+}
+/*手机号结束*/
+/*注册密码开始*/
+.login-password{
+	margin-top: 27px;
+}
+.login-password-input{
+	margin-top: 32px;
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+	position: relative;
+}
+.login-password-input input{
+	width: 361px;
+	height: 34px;
+	margin-left: 77px;
+}
+#check-pwd{
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	background: #F8F9D6;
+	border: 1px solid #999;
+	border-radius: 5%;
+	left: 115px;
+	top: 30px;
+	display: none;
+}
+.login-surepassword-input{
+	margin-top: 32px;
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+	position: relative;
+}
+.login-surepassword-input input{
+	width: 361px;
+	height: 34px;
+	margin-left: 54px;
+}
+#sure-pwd{
+	position: absolute;
+	width: 150px;
+	height: 20px;
+	background: #F8F9D6;
+	border: 1px solid #999;
+	border-radius: 5%;
+	left: 115px;
+	top: 30px;
+	display: none;
+}
+.login-password-input:nth-child(2) input{
+	width: 361px;
+	height: 34px;
+	margin-left: 53px;
+}
+.pwd-info{
+	margin: 10px 0 0 110px;
+	
+}
+.pwd-info-title{
+	margin-bottom: 8px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.pwd-length{
+	font-size: 12px;
+	font-weight: normal;
+	color: #999;
+}
+.pwd-length img{
+	width:12px;
+	height: 12px;
+	float: left;
+	margin-right: 8px;
+	margin-top: 3px;
+}
+.pwd-bigsmall{
+	font-size: 12px;
+	font-weight: normal;
+	color: #999;
+}
+.pwd-bigsmall img{
+	width:12px;
+	height: 12px;
+	float: left;
+	margin-right: 8px;
+	margin-top: 3px;
+}
+.pwd-number{
+	font-size: 12px;
+	font-weight: normal;
+	color: #999;
+}
+.pwd-number img{
+	width:12px;
+	height: 12px;
+	float: left;
+	margin-right: 8px;
+	margin-top: 3px;
+}
+.pwd-info-title2{
+	margin-top: 17px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.pwd-strong{
+	width: 361px;
+	height: 3px;
+	background: #eeeeee;
+}
+/*注册密码结束*/
+/*服务条款开始*/
+.serve-items{
+	margin-top: 27px;
+}
+.serve-items h4{
+	margin-bottom: 25px;
+}
+.serve-items p{
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom:10px ;
+}
+.serve-items p a{
+	color:#00C0F4;
+	text-decoration: underline;
+}
+/*服务条款结束*/
+/*注册按钮*/
+.reg-button{
+	width: 988px;
+	height: 45px;
+	margin-top: 38px;	
+	padding-left: 353px;
+	box-sizing: border-box;
+}
+.reg-button input{
+	width: 279px;
+	height: 45px;
+	background: #D70506;
+	color: white;
+	font-size: 14px;
+}
+/*注册按钮结束*/
+/*表单结束*/
+/*底部开始*/
+.reg-bottom{
+	width: 100%;
+	height: 110px;
+	border-top: 1px solid #D7D7D7;
+	margin-top: 30px;
+	padding-top: 36px;
+	text-align: center;
+}
+.reg-bottom p{
+	color: #999;
+}
+.reg-bottom p:nth-child(2){
+	margin-top: 13px;
+	font-size: 12px;
+}

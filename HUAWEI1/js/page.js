@@ -15,7 +15,7 @@ $.ajax({
 			if( pid == res[i].id ){//找到了要显示的商品详情
 				str = `<img src="../img/${ res[i].src }" alt="" />`;
 				str1=`<p>${res[i].pname}</p>
-						<span>${res[i].price}</span>
+						<span>¥${res[i].price}.00</span>
 
 						<span data-id=${res[i].id}  data-name=${res[i].pname} data-src=${res[i].src} data-price=${res[i].price}   style="display:none"></span>`;
 				str2=`<div class="gallery" style="background-image: url(../img/${ res[i].src });background-size: 1097px 1097px;"></div>`
@@ -65,10 +65,10 @@ $(".xiangqing-r").on("click","#button",function(){
 	var arr = [];
 	var flag = true;//可以向数组中添加数据
 	var _json = {
-		id:$(this).prev().data("id"),
-		name:$(this).prev().data("name"),
-		src:$(this).prev().data("src"),
-		price:$(this).prev().data("price"),
+		id:$(this).parent().find("span").eq(1).data("id"),
+		name:$(this).parent().find("span").eq(1).data("name"),
+		src:$(this).parent().find("span").eq(1).data("src"),
+		price:$(this).parent().find("span").eq(1).data("price"),
 		count:1
 	}
 	console.log(_json);
